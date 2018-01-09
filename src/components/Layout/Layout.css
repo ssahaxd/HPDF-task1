@@ -1,0 +1,28 @@
+.layout-nav {
+  position: fixed;
+  z-index: 10;
+}
+
+.layout-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 65px;
+  padding: 56px 14px 15px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.layout-row1 {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-row2 {
+  widows: 588px;
+}
+
+.layout-row3 {
+  width: 290px;
+}

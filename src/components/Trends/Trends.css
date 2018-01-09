@@ -1,0 +1,98 @@
+.u-hiddenVisually {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  font-size: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+h3 {
+  line-height: 22px;
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.Trends {
+  width: 260px;
+  height: 450px;
+  border: 1px solid #e6ecf0;
+  text-align: left;
+  background-color: #fff;
+  background-clip: inherit;
+  border: 1px solid #e6ecf0;
+  line-height: inherit;
+  padding: 15px;
+}
+
+.flex-module {
+  background-color: inherit;
+  border: 0;
+  line-height: inherit;
+  padding: 0;
+}
+
+.flex-module-header {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.flex-module-header h3 {
+  color: #14171a;
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.middot {
+  font-size: 12px;
+}
+
+.btn-link {
+  font-size: 12px;
+  padding: 0;
+  background-color: transparent;
+  background-image: none;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.Trends .trend-item {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 7px;
+  word-wrap: break-word;
+}
+
+.context-trend-item {
+  display: block;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.trend-item .trend-name {
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.trend-name {
+  font-weight: bold;
+  color: #4a913c;
+}
+
+.trend-item-stats {
+  color: #657786;
+  font-size: 12px;
+  line-height: 16px;
+}
