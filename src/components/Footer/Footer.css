@@ -1,0 +1,37 @@
+li {
+  text-align: inherit;
+}
+
+.flex-module {
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  padding: 15px;
+  line-height: 16px;
+}
+
+.flex-module-footer {
+  display: flex;
+}
+
+.Footer ul {
+  line-height: 18px;
+}
+
+.Footer-item {
+  float: left;
+  padding-right: 8px;
+}
+
+.Footer-item,
+.Footer-link {
+  color: #657786;
+}
+
+.Footer-item {
+  display: inline;
+}
+
+.Footer-link:hover {
+  color: #4a913c;
+  text-decoration: underline;
+}

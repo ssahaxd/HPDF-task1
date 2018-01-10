@@ -96,3 +96,7 @@ ul {
   font-size: 12px;
   line-height: 16px;
 }
+
+.flex-module.trend-container {
+  border: none;
+}

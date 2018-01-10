@@ -11,7 +11,7 @@ class Trends extends Component {
               <h3>
                 <span className="trend-location">Trends for you</span>
               </h3>
-              <span className="middot"> . </span>
+              <span className="middot"> · </span>
               <a className="btn-link" href="">
                 <span>Change</span>
                 <span className="u-hiddenVisually">Change trend settings</span>

@@ -1,0 +1,25 @@
+.flex-module-footer {
+  color: #657786;
+  font-size: 12px;
+}
+.Icon:after,
+.Icon:before {
+  display: block;
+  font-family: "edgeicons";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flex-module-footer .Icon {
+  margin-right: 8px;
+  top: 1px;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.Icon--people:before {
+  content: "\f178";
+}

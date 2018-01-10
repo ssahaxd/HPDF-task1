@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from '../Navbar/Navbar';
 import ProfileCad from '../ProfileCard/ProfileCard';
 import Trends from '../Trends/Trends';
+import WhoToFollow from '../WhoToFollow/WhoToFollow';
 import './Layout.css';
 
 class Layout extends Component {
@@ -18,7 +19,7 @@ class Layout extends Component {
           </div>
           <div className="layout-row2" />
           <div className="layout-row3">
-            <ProfileCad />
+            <WhoToFollow />
           </div>
         </div>
       </div>
