@@ -2,6 +2,7 @@
   color: #657786;
   font-size: 12px;
 }
+
 .Icon:after,
 .Icon:before {
   display: block;
@@ -20,6 +21,7 @@
   line-height: 15px;
 }
 
-.Icon--people:before {
-  content: "\f178";
+.u-hoverUnderline:hover {
+  color: #4a913c;
+  text-decoration: underline;
 }

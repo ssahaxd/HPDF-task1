@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProfileState from './ProfileState/ProfileState';
 import './ProfileCard.css';
 
 class ProfileCard extends Component {
@@ -38,24 +39,26 @@ class ProfileCard extends Component {
           </div>
           <div className="ProfileCardStats">
             <ui className="ProfileCardStats-statList Arrange Arrange--bottom Arrange--equal">
-              <li className="ProfileCardStats-stat Arrange-sizeFit">
-                <a className="ProfileCardStats-statLink u-textUserColor u-block " href="">
-                  <span className="ProfileCardStats-statLabel u-block">Tweets</span>
-                  <span className="ProfileCardStats-statValue">3</span>
-                </a>
-              </li>
-              <li className="ProfileCardStats-stat Arrange-sizeFit">
-                <a className="ProfileCardStats-statLink u-textUserColor u-block " href="">
-                  <span className="ProfileCardStats-statLabel u-block">Following</span>
-                  <span className="ProfileCardStats-statValue">143</span>
-                </a>
-              </li>
-              <li className="ProfileCardStats-stat Arrange-sizeFit">
-                <a className="ProfileCardStats-statLink u-textUserColor u-block " href="">
-                  <span className="ProfileCardStats-statLabel u-block">Followers</span>
-                  <span className="ProfileCardStats-statValue">145</span>
-                </a>
-              </li>
+              <ProfileState
+                values={{
+                  stateLabel: 'Tweets',
+                  stateValue: '10',
+                }}
+              />
+
+              <ProfileState
+                values={{
+                  stateLabel: 'Following',
+                  stateValue: '142',
+                }}
+              />
+
+              <ProfileState
+                values={{
+                  stateLabel: 'Followers',
+                  stateValue: '153',
+                }}
+              />
             </ui>
           </div>
         </div>

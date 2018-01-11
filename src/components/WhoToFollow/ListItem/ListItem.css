@@ -1,0 +1,117 @@
+.UserSmallListItem {
+  border-bottom: 1px solid #e6ecf0;
+  padding-bottom: 8px;
+}
+
+.account-summary {
+  position: relative;
+  display: block;
+  min-height: 48px;
+}
+
+.UserSmallListItem-context {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.dismiss {
+  color: #ccd6dd;
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.account-group {
+  display: block;
+  line-height: 16px;
+}
+
+.account-summary .content {
+  margin-top: 0 !important;
+  margin-left: 58px;
+  margin-right: 20px;
+}
+
+.account-summary .avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.UserSmallListItem .account-group .avatar {
+  top: unset;
+}
+
+.account-group-inner {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fullname {
+  /* word-break: break-all; */
+  color: #14171a;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fullname:hover {
+  color: #4a913c;
+  text-decoration: underline;
+}
+
+.UserBadges .Icon {
+  padding-left: 2px;
+}
+
+.account-group .username {
+  font-size: 14px;
+  color: #657786;
+}
+
+.UserSmallListItem .user-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.EdgeButton {
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 18px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 12px;
+  padding: 4px 12px;
+  min-width: 89px;
+}
+
+.EdgeButton--secondary {
+  background-color: #fff;
+  border: 1px solid #4a913c;
+  color: #4a913c;
+}
+
+.EdgeButton:hover {
+  background-color: #ecf4eb;
+}
+
+.Icon--verified:after {
+  line-height: 1;
+  position: relative;
+  color: #1da1f2;
+  font-size: 14px;
+}

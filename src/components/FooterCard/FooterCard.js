@@ -1,14 +1,14 @@
 import React from 'react';
 import './FooterCard.css';
 
-const footerCard = () => (
+const footerCard = props => (
   <div className="u-marginBottom flex-module ">
     <div className="flex-module-footer u-table">
-      <a className="u-tableCell u-alignMiddle" href="">
-        <span className="Icon Icon--people " />
+      <a className="u-tableCell u-alignMiddle" href="/">
+        <span className={props.values.icon} />
       </a>
-      <a className="u-tableCell u-alignMiddle u-hoverUnderline" href="">
-        Find people you know
+      <a className="u-tableCell u-alignMiddle u-hoverUnderline" href="/">
+        {props.values.text}
       </a>
     </div>
   </div>

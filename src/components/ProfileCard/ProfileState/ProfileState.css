@@ -1,0 +1,27 @@
+.Arrange-sizeFit {
+  display: table-cell;
+  padding: 0;
+  vertical-align: top;
+}
+
+.ProfileCardStats-statLabel {
+  color: #657786;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  overflow: hidden;
+  transition: color 0.15s ease-in-out;
+}
+
+.ProfileCardStats-statLabel:hover {
+  color: #4a913c;
+}
+
+.ProfileCardStats-statValue {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  transition: color 0.15s ease-in-out;
+}
