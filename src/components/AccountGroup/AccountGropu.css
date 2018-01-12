@@ -1,0 +1,46 @@
+.account-group {
+  display: block;
+  line-height: 16px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.account-group-inner {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fullname {
+  /* word-break: break-all; */
+  color: #14171a;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fullname:hover {
+  color: #4a913c;
+  text-decoration: underline;
+}
+
+.UserBadges .Icon {
+  padding-left: 2px;
+}
+
+.Icon--verified:after {
+  line-height: 1;
+  position: relative;
+  color: #1da1f2;
+  font-size: 14px;
+}
+
+.account-group .username {
+  font-size: 14px;
+  color: #657786;
+}

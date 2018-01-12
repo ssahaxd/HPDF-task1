@@ -31,9 +31,15 @@ ul {
 }
 
 button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  transition: box-shadow 0.15s ease-in-out;
   color: inherit;
   font: inherit;
   margin: 0;
+  outline: none;
+  cursor: inherit;
 }
 
 small {
@@ -101,6 +107,15 @@ small {
   vertical-align: middle;
 }
 
+.u-size32 {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.u-borderRadiusInherit {
+  border-radius: inherit !important;
+}
+
 .u-btn-link {
   color: #4a913c;
   font-size: 12px;
@@ -122,6 +137,13 @@ small {
 
 /* Icons */
 
+.IconContainer {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  vertical-align: middle;
+}
+
 .Icon {
   background: transparent;
   display: inline-block;
@@ -129,6 +151,16 @@ small {
   vertical-align: baseline;
   position: relative;
   font-family: "edgeicons";
+}
+
+.Icon--small {
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.Icon--medium {
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .Icon::after {
@@ -154,6 +186,30 @@ small {
 
 .Icon--verified:after {
   content: "\f099";
+}
+
+.Icon--caretDownLight:before {
+  content: "\f196";
+}
+
+.Icon--reply:before {
+  content: "\f151";
+}
+
+.Icon--retweet:before {
+  content: "\f152";
+}
+
+.Icon--heart:before {
+  content: "\f148";
+}
+
+.Icon--dm:before {
+  content: "\f054";
+}
+
+.Icon--media:before {
+  content: "\f109";
 }
 
 /* Flex */

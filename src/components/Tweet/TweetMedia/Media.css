@@ -1,0 +1,43 @@
+.AdaptiveMediaOuterContainer {
+  margin-top: 10px;
+  height: fit-content;
+}
+
+.AdaptiveMedia {
+  border-radius: 5px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  max-height: 379.5px;
+  max-width: 506px;
+}
+
+.AdaptiveMedia.is-square {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.AdaptiveMedia.is-square {
+  max-height: 506px;
+}
+
+.AdaptiveMedia-singlePhoto .AdaptiveMedia-photoContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.AdaptiveMedia-photoContainer {
+  position: relative;
+  width: 100%;
+  min-height: 0px;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  top: 0px;
+}

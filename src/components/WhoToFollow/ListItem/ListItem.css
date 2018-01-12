@@ -40,43 +40,8 @@
   left: 0;
 }
 
-.avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-}
-
 .UserSmallListItem .account-group .avatar {
   top: unset;
-}
-
-.account-group-inner {
-  display: block;
-  width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.fullname {
-  /* word-break: break-all; */
-  color: #14171a;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.fullname:hover {
-  color: #4a913c;
-  text-decoration: underline;
-}
-
-.UserBadges .Icon {
-  padding-left: 2px;
-}
-
-.account-group .username {
-  font-size: 14px;
-  color: #657786;
 }
 
 .UserSmallListItem .user-actions {
@@ -107,11 +72,4 @@
 
 .EdgeButton:hover {
   background-color: #ecf4eb;
-}
-
-.Icon--verified:after {
-  line-height: 1;
-  position: relative;
-  color: #1da1f2;
-  font-size: 14px;
 }

@@ -1,0 +1,15 @@
+.TweetTextSize {
+  font-size: 14px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.tweet .tweet-text {
+  white-space: pre-wrap;
+}
+
+.text-container .tweet-text {
+  margin: 0;
+  text-align: left;
+}

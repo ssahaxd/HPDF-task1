@@ -1,0 +1,23 @@
+.stream-item:not(.no-header-background-module) {
+  background: #fff;
+  border-left: 1px solid #e6ecf0;
+  border-right: 1px solid #e6ecf0;
+  background-clip: padding-box;
+}
+
+.stream-item {
+  position: relative;
+  list-style-type: none;
+}
+
+.tweet {
+  border-bottom: 1px solid #e6ecf0;
+  cursor: pointer;
+  position: relative;
+  /* min-height: 51px; */
+  padding: 9px 12px;
+}
+
+.stream-item .content {
+  margin-left: 58px;
+}
